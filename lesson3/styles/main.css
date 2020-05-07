@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+p {
+    line-height: 2rem;
+}
+
+footer {
+    height: 50px;
+    margin-top: -60px;
+    padding: 0 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+ol {
+    font-style: oblique;
+    line-height: 2rem;
+}
+
+ol li.a {
+    list-style-type: georgian;
+}
+
+ol li.b {
+    list-style-type: hebrew;
+}
+
+ol li.c {
+    list-style-type: hiragana;
+}
+
+ol li.d {
+    list-style-type: hiragana-iroha;
+}
+
+ol li.e {
+    list-style-type: katakana;
+}
+
+ol li.f {
+    list-style-type: katakana-iroha;
+}
+
+ol li.g {
+    list-style-type: lower-alpha;
+}
+
+ol li.h {
+    list-style-type: lower-greek;
+}
+
+ol li.i {
+    list-style-type: lower-latin;
+}
+
+ol li.j {
+    list-style-type: lower-roman;
+}
+
+ol li.k {
+    list-style-type: upper-alpha;
+}
+
+ol li.l {
+    list-style-type: upper-latin;
+}
+
+ol li.m {
+    list-style-type: upper-roman;
+}
+
+ol li.n {
+    list-style-type: armenian;
+}
+
+ol li.o {
+    list-style-type: cjk-ideographic;
+}
+
+ol li.p {
+    list-style-type: cjk-ideographic;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img.outline {
+    outline: 4px solid green;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.product {
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-descr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-descr-short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    bottom: -1rem;
+    left: -1rem;
+    right: -1rem;
+    top: -1rem;
+}
+
+.container-reg {
+    border-radius: 5px;
+    padding: 20px 0;
+    max-width: 50%;
+    min-width: 300px;
+}

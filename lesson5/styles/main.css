@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.footer {
+    height: 50px;
+    padding: 8px 20px;
+    background-color: moccasin;
+}
+
+.footer span {
+    float: right;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text] {
+    text-transform: capitalize;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.btn-buy {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#email:focus {
+    background: #45a049;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.content-inside {
+    padding-bottom: 50px;
+}
+
+img.outline {
+    outline: 4px solid green;
+}
+
+img.outline:hover {
+    outline: none;
+}
+
+.product {
+    display: inline-block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-flex {
+    display: flex;
+}
+
+.product-image a {
+    display: block;
+}
+
+.product-descr-short {
+    padding-left: 20px;
+}
+
+.product-descr {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.product-descr-short {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.product:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    bottom: -1rem;
+    left: -1rem;
+    right: -1rem;
+    top: -1rem;
+}
+
+.container-reg {
+    border-radius: 5px;
+    padding: 20px 0;
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.header {
+    overflow: hidden;
+    height: 70px;
+    background: url(../background.jpg) left top repeat;
+}
+
+.header-right {
+    float: right;
+    padding: 10px;
+}
+
+.menu {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.menu:hover {
+    background: #ddd;
+    color: black;
+}
+
+.header img {
+    height: 50px;
+}
+
+.first-letter p::first-letter {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+}
+
+table {
+    margin-bottom: 18px;
+}
+
+tr:first-child {
+    line-height: 4rem;
+}
+
+td {
+    padding: 4px;
+    border: black 1pt solid;
+}
